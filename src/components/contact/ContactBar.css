@@ -1,0 +1,35 @@
+.contactBar{
+    border: 1px solid yellow;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 70vw;
+    height: 200px;
+    position: relative;
+    top: -110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: rgb(2, 74, 107);
+}
+
+.contact-info{
+    text-align: center;
+    display: flex;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.vertical-line {
+    border-left: 1px solid rgb(255, 255, 255); 
+     height: 100px;
+
+}
+.vertical-lineMid{
+    border-left: 2px solid rgb(255, 255, 255); 
+     height: 130px;
+}

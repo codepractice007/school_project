@@ -1,0 +1,37 @@
+.callmail{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.calltitle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.call p {
+    margin-top: -25px; /* Adjust the top margin to reduce the gap between calltitle and p */
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px; /* Adjust the top margin to reduce the gap between calltitle and p */
+
+}
+
+.mailtitle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mail p {
+    margin-top: -25px; /* Adjust the top margin to reduce the gap between calltitle and p */
+}

@@ -1,0 +1,30 @@
+.Message{
+    width: 90vw;
+
+    display: flex;
+    padding-left: 100px;
+    gap: 50px;
+    margin-top: 300px;
+    
+}
+
+
+.image{
+    margin-top: 50px;
+    height: 270px;
+    
+}
+
+.image img{
+    width: 400px;
+    height: 270px;
+}
+
+
+.text{
+    width: 100vw;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}

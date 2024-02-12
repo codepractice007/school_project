@@ -1,0 +1,12 @@
+.deCard{
+    border: 1px solid rgb(54, 53, 53);
+    width: 12vw;
+    padding: 30px;
+    margin: 20px;
+}
+.deCardhover{
+    border: 1px solid rgb(252, 255, 51);
+    width: 12vw;
+    padding: 30px;
+    margin: 20px;
+}

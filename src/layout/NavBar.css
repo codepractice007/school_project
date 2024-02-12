@@ -1,0 +1,10 @@
+.divbar{
+    width: 100vw;
+    height: 70px;
+    position: relative;
+    z-index: 0; 
+    background: rgb(54, 65, 4);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}

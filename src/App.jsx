@@ -1,29 +1,34 @@
-import './App.css';
-
+import { useState } from 'react'
+import './App.css'
+import TopBar from './components/TopBar'
+import Header from './components/Header'
+import NavBar from './layout/NavBar'
+import ImageSlider from './components/ImageSlider'
+import Card from './components/card/Card'
+import Message from './components/Message'
+import Container from './components/aboutUs/container'
+import Details from './components/details/Details'
+import Events from './components/event/event'
+import ContactBar from './components/contact/ContactBar'
+import Footer from './layout/footer'
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
-  );
+    <>
+      <TopBar />
+      <Header/>
+      <NavBar/>
+      <ImageSlider/>
+      <Card />
+      <Message/>
+      <Container/>
+      <Details />
+      <Events />
+      <ContactBar/>
+      <Footer/>
+    </>
+  )
 }
 
-export default App;
+export default App

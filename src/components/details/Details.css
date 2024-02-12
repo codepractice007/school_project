@@ -1,0 +1,21 @@
+.details {
+    text-align: center; 
+    width: 100vw;
+}
+
+.detailsmain{
+    display: flex;
+    gap: 50px;
+}
+.dImage {
+    margin: 20px;
+    margin-left: 50px;
+}
+.dImage img{
+    width: 50vw;
+}
+
+.dCard{
+    display: flex;
+}
+

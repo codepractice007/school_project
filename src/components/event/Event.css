@@ -1,0 +1,14 @@
+.events {
+    background-color: darkcyan;
+    text-align: center; 
+    width: 100vw;
+    height: 800px;
+
+}
+
+.eventsmain{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

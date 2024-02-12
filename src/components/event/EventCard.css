@@ -1,0 +1,21 @@
+.eventCard{
+    background-color: rgb(58, 58, 58);
+    width: 29vw;
+    margin: 30px;
+}
+.eventCard img{
+    width: 29vw;
+    height: 250px; 
+}
+
+.eventText{
+    background-color: rgb(58, 58, 58);
+}
+
+.eventDate{
+    color: rgb(248, 141, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

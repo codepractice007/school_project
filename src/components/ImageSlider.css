@@ -1,0 +1,13 @@
+.imageSlide{
+    width: 100vw;
+    height: 500px;
+    position: relative;
+    z-index: 0;
+
+
+}
+
+.imageSlide img{
+    width: 100vw;
+    height: 800px;
+}

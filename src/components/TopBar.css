@@ -1,0 +1,14 @@
+.topBar {
+    width: 100vw;
+    height: 30px;
+    position: relative;
+    z-index: 1; 
+    background: rgb(4, 65, 65);
+    display: flex;
+}
+
+.scroll{
+        width: 80%;
+        padding-right: 120px;
+     
+}

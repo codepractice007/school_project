@@ -1,0 +1,22 @@
+.cardIcon{
+    color: blue;
+    background-color: rgb(2, 74, 107);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 5%;
+    width:  200px;
+    height: 250px;
+}
+.cardIconHover{
+    background-color: rgb(25, 132, 182);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 5%;
+    width:  200px;
+    height: 250px;
+}
+
